@@ -9,18 +9,18 @@ body{
   align-items: center;
   height: 100vh;
   font-weight: bold;
-  background-color: rgba(245, 179, 179, 0.301);
+  background-color: rgba(180, 179, 245, 0.301);
 }
 
 .container{
 border-radius: 5px;
-  border: 1px solid rgba(82, 3, 3, 0.678);
+  border: 1px solid rgba(15, 3, 82, 0.678);
   width: 30rem;
   margin: 2rem auto;
   padding: 1rem;
-  box-shadow: rgba(245, 9, 9, 0.4) 5px 5px, rgba(245, 9, 9, 0.3) 10px 10px, rgba(245, 9, 9, 0.2) 15px 15px, rgba(245, 9, 9, 0.1) 20px 20px, rgba(245, 9, 9, 0.05) 25px 25px;
+  box-shadow: rgba(9, 103, 245, 0.4) 5px 5px, rgba(9, 103, 245, 0.3) 10px 10px, rgba(9, 103, 245, 0.2) 15px 15px, rgba(9, 103, 245, 0.1) 20px 20px, rgba(9, 103, 245, 0.05) 25px 25px;
   background: rgb(255, 255, 255);
-  background: radial-gradient(circle, rgb(255, 255, 255) 0%, rgb(244, 144, 144) 78%, rgb(244, 144, 144) 96%);
+  background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(144, 191, 244, 1) 78%, rgba(144, 218, 244, 1) 96%);
 }
 
 
@@ -50,13 +50,13 @@ button {
   margin: 2rem auto;
   padding: 1rem;
   color: white;
-  background-color: rgba(245, 9, 21, 0.384);
+  background-color: rgba(25, 9, 245, 0.781);
   border: none;
   outline: none;
   border-radius: 2rem;
 }
 button:hover{
-  background-color: rgb(141, 10, 10);
+  background-color: rgb(10, 23, 141);
   color: rgba(255, 255, 255, 0.884);
   cursor: pointer;
   box-shadow: 2px 2px rgba(128, 128, 128, 0.63);
